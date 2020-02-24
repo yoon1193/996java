@@ -16,16 +16,23 @@ public class javaClass {
 //	    int z = (a+b)*h/2;
 //	    System.out.println(String.format("사다리 꼴의 넓이는 %d",z));
 //	    
-	    boolean isFlag=false;
-	    int a=0;
-	    if(isFlag) {
-	    	a=5;
-	    	System.out.println("isFlag");
-	    }
-	    else {
-	    	a=10;
-	    	System.out.println(a);
-	    }
+//	    boolean isFlag=false;
+//	    int a=0;
+//	    if(isFlag) {
+//	    	a=5;
+//	    	System.out.println("isFlag");
+//	    }
+//	    else {
+//	    	a=10;
+//	    	System.out.println(a);
+//		}
+		
+		int a=0;
+		while(a<5) {
+			System.out.println("안녕하세요");
+			a++;
+		}
+		
 	}
 	
 
